@@ -21,7 +21,8 @@ function deepestChild(){
 
   while(final.children[0]!=undefined){
     final = temp.children[0]
-    temp = final.children[0]
+    if(final.children[0]!=undefined){
+    temp = final.children[0]}
   }
   return final
 
