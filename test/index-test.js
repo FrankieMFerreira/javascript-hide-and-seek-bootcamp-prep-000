@@ -14,7 +14,6 @@ describe('index', () => {
 
   describe('deepestChild()', () => {
     it('returns the most deeply nested child in #grand-node', () => {
-      console.log(deepestChild().innerHTML)
       expect(deepestChild()).toBe(document.querySelector('#grand-node div div div div'))
     })
   })
