@@ -28,4 +28,3 @@ function increaseRankBy(n) {
     }
   }
 }
-// hello
