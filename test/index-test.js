@@ -5,7 +5,7 @@ describe('index', () => {
       expect(getFirstSelector('.ranked-list')).toEqual(document.querySelector('.ranked-list'))
     })
   })
-
+ 
   describe('nestedTarget()', () => {
     it('pulls a .target out of #nested', () => {
       expect(nestedTarget()).toEqual(document.querySelector('#nested .target'))
