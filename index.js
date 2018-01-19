@@ -13,5 +13,5 @@ function deepestChild(){
 function increaseRankBy(n){
   document.querySelectorAll(".ranked-list li").forEach(function(item){
     item.innerHTML = parseInt(item.innerHTML) + n;
-  })
+  });
 }
